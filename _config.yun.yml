@@ -1,0 +1,154 @@
+mode: auto
+
+banner:
+	enable: true
+	title: 残云的学习笔记
+	border: true
+	cloud:
+		enable: true
+		color: white
+	go_down:
+		enable: true
+		icon: icon-arrow-down-s-line
+
+bg_image:
+  enable: true
+	url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+  dark: https://images.rescld.cn/1640516905599.jpg
+	blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+
+girls:
+  enable: true
+
+pages:
+	- name: Links
+		url: /links/
+		icon: icon-links-line
+		color: dodgerblue
+	- name: Lovely Girls
+		url: /girls/
+		icon: icon-women-line
+		color: hotpink
+
+head:
+	js:
+		async:
+			iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
+			iconfont2: //at.alicdn.com/t/c/font_2405212_lsxos9sxcvd.js
+  css:
+		remix: https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css
+    fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+
+sidebar:
+	bg_image: https://images.rescld.cn/1659251890958.jpg
+	bg_position: bottom 2rem center
+	tagcloud:
+		enable: false
+		amount: 20
+
+avatar:
+  enable: true
+  url: https://images.rescld.cn/202208042130022.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: false
+
+footer:
+	since: 2019
+	beian:
+		enable: true
+		icp: 闽ICP备19010113号-1
+
+mourn:
+  enable: true
+  days:
+    - 4-4
+
+lazyload:
+	enable: true
+
+medium_zoom: true
+
+codeblock:
+  copy_btn: true
+
+wordcloud:
+  enable: false
+
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+engine_search:
+  enable: false
+  href: "https://www.google.com/search?q=site:"
+  domain: rescld.cn
+
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+search:
+	format: raw
+
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: false
+  categories: true
+  tags: true
+
+social:
+  - name: BiliBili
+    link: https://space.bilibili.com/55675106
+    icon: icon-bilibili-line
+    color: '#FF8EB3'
+  - name: Twitter
+    link: https://twitter.com/cyun255
+    icon: icon-twitter-line
+    color: '#1da1f2'
+  - name: GitHub
+    link: https://github.com/rescld-code
+    icon: icon-github-line
+    color: '#181717'
+  - name: E-Mail
+    link: mailto:cyun@rescld.cn
+    icon: icon-mail-line
+    color: '#8E71C1'
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://images.rescld.cn/202208042219497.jpg
+      color: '#00A3EE'
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: https://images.rescld.cn/202208051050273.png
+      color: '#2DC100'
+      icon: icon-wechat-pay-line
+    - name: QQ支付
+      path: https://images.rescld.cn/202208051043825.png
+      color: '#12B7F5'
+      icon: icon-qq-line
+
+katex:
+	copy_tex: true
+	global: true
+
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  packages: # extra packages to load
+  extension_options: {}
